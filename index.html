@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,13 @@
   <script src="./app.js" defer> </script>
   <title>TopLingo</title>
 </head>
+
 <body>
   <div class="coluna"></div>
+
   <header>
     <h1>TopLingo</h1>
+
     <div class="modo">
       <button id="escurecer" class="changeButton"><img src="./img/lua-crescente.png" alt="modo-noturno"></button>
     </div>
@@ -19,24 +23,30 @@
   <main>
     <div class="container">
       <div class="content">
+        <div class="microfone">
+          <button id="microfone" class="microfone"><img src="./img/microfone.png" alt="microfone"</button>
+        </div>
         <div class="divTextareas">
           <div class="tradutor">
             <textarea id="texto" placeholder="Olá!"></textarea>
             <select name="traducao" id="select1">
-              <option value="pt">Português</option>
-              <option value="en">Inglês</option>
-              <option value="es">Espanhol</option>
-              <option value="de">Alemão</option>
-              <option value="fr">Francês</option>
+                <option value="pt">Português</option>
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="de">Alemão</option>
+                <option value="fr">Francês</option>
             </select>     
+          </div>
+          <div class="som">
+            <button id="som" class="som"><img src="./img/som.png" alt="som"</button>
           </div>
           <div class="traducao">
             <textarea id="impressao" placeholder="Hello!"></textarea>
             <select name="traducao" id="select2">
-              <option value="pt">Português</option>
                 <option value="en">Inglês</option>
-                <option value="es">Espanhol</option>
-                <option value="de">Alemão</option>
+              <option value="pt">Português</option>
+              <option value="es">Espanhol</option>
+              <option value="de">Alemão</option>
                 <option value="fr">Francês</option>
             </select>       
             </div>
@@ -51,5 +61,7 @@
   <footer>
     <p>Raica Martinez & Vitor Nascimento</p>
   </footer>
+
 </body>
+
 </html>

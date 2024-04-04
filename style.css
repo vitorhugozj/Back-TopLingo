@@ -45,7 +45,8 @@ select {
   margin-bottom: 20px;
   margin-top: 20px;
   background-color: #5B0B9B;
-  color: white
+  color: white;
+
 }
 
 
@@ -78,6 +79,7 @@ textarea {
   overflow-wrap: break-word;
 }
 
+
 .tradutor {
   padding-bottom: 90px;
 }
@@ -92,4 +94,21 @@ textarea {
 
 .clarear{
   background-color: white;
+}
+
+.microfone button{
+  background: transparent;
+  border: none;
+}
+
+.som button{
+  background: transparent;
+  border: none;
+}
+
+#traduzir{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #5B0B9B;
+  color: white;
 }
