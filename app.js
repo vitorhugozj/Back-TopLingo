@@ -5,8 +5,7 @@ const tema = document.getElementById('escurecer')
 const body = document.querySelector('body')
 let escuro = false
 
-
-// botao.onclick = verificartexto
+botao.onclick = verificartexto
 //  audioSaida.onclick = falar
 //  trocar.onclick = inverterIdioma
 //  audioEntrada.onclick = ativarReconhecimento
@@ -24,7 +23,6 @@ function verificarSelect(){
     console.log(linguaTraduzida);
 
     let opcoesSelects = [linguaTraduzir, linguaTraduzida]
-    
     return opcoesSelects
     
 }
@@ -46,11 +44,7 @@ function mudarCores(){
         body.classList.remove('escuro')
         body.classList.add('clarear')
     }
-
 }
-
-
-
 
 function verificartexto(){
     const texto = document.getElementById('texto').value
