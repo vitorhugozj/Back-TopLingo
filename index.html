@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="./app.js" defer> </script>
+  <title>TopLingo</title>
+</head>
+
+<body>
+  <div class="coluna"></div>
+
+  <header>
+    <h1>TopLingo</h1>
+
+    <div class="modo">
+      <button id="escurecer" class="changeButton"><img src="./img/lua-crescente.png" alt="modo-noturno"></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="content">
+        <div class="divTextareas">
+          <div class="tradutor">
+            <textarea id="texto" placeholder="Olá!"></textarea>
+            <select name="traducao" id="select1">
+                <option value="pt">Português</option>
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="de">Alemão</option>
+                <option value="fr">Francês</option>
+            </select>     
+          </div>
+          <div class="traducao">
+            <textarea id="impressao" placeholder="Hello!"></textarea>
+            <select name="traducao" id="select2">
+                <option value="en">Inglês</option>
+              <option value="pt">Português</option>
+              <option value="es">Espanhol</option>
+              <option value="de">Alemão</option>
+                <option value="fr">Francês</option>
+            </select>       
+            </div>
+            <div class="button-traduzir">
+              <button id="traduzir">
+                <a> Traduzir </a>
+            </button>
+            </div>
+        </div>
+  </main>
+
+  <footer>
+    <p>Raica Martinez & Vitor Nascimento</p>
+  </footer>
+
+</body>
+
+</html>
